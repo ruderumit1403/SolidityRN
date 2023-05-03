@@ -12,7 +12,7 @@ contract array{
     {
         while(c<a.length){                //using while loop until the c is less than the length of the array
             a[c] = c;                    // adding values to the array   
-            c+3;                         //returns the value c
+            c++;                         //returns the value c
         }
     }
 }
